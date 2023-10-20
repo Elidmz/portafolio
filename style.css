@@ -1,7 +1,9 @@
 
 
 body { 
-  background-image:
+  background-image: url(Img/fondo\ gif.gif) 
+
+
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link { 
     background-color: #FB5B5C;
@@ -12,13 +14,16 @@ body {
     font-size: calc(1.325rem + .9vw);
     color: black;+
     text-align: center;
-    text-decoration: underline #5216c263 ;
+    text-decoration: underline #FB5B5C ;
+    
 }
    
 a {
   color: white; ,var(--bs-link-opacity,1));
   text-decoration: underline;
+
 }
-#carousel-item {
-  
+
+.mb-3 mb-md-0 text-body-secondary{
+  text-align: left;
 }
